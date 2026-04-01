@@ -1,0 +1,15 @@
+[IMAGE: GPDR_rights.jpg]
+
+Descripción:
+The image outlines the 8 GDPR rights for individuals with clear icons and concise descriptions for each right.
+
+- The right to be informed
+- The right of access
+- The right to rectification
+- The right to erasure
+- The right to restrict processing
+- The right to data portability
+- The right to object
+- Rights in relation to automated decision-making and profiling
+
+This image illustrates the core principles of data protection and individual rights under the GDPR, emphasizing transparency and control over personal data.

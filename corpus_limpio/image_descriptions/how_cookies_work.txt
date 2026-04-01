@@ -1,0 +1,12 @@
+[IMAGE: how_cookies_work.png]
+
+Descripción:
+The image illustrates the process of how cookies are used in web browsing.
+
+- Internet browser sends request
+- Server generates cookies
+- Cookies sent back to browser
+- Browser stores cookies on device
+- Cookies enhance user experience
+
+The image explains the mechanism behind cookies in web browsing, highlighting their role in personalizing user experiences.

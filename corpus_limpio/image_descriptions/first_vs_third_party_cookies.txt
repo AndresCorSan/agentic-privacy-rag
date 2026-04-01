@@ -1,0 +1,18 @@
+[IMAGE: first_vs_third_party_cookies.png]
+
+Descripción:
+The image contrasts third-party and first-party cookies, explaining their differences and functions.
+
+- Third-party cookies
+  - Track user behavior between multiple sites
+  - Used for retargeting and ad-serving
+  - Created and owned by third-party servers
+  - Accessible on any website with the server's code
+
+- First-party cookies
+  - Store user information specific to the site
+  - Improve user experience
+  - Created and owned by the domain/site
+  - Accessible only on the domain that created them
+
+This illustration clarifies the distinctions and implications of using third-party versus first-party cookies in web browsing.

@@ -1,0 +1,12 @@
+[IMAGE: third_party_cookies_retargeting.png]
+
+Descripción:
+This image illustrates the process of third-party cookie retargeting.
+
+- User visits website A
+- Website A sends back cookies with unique ID
+- User exits A and visits website B
+- Cookies from A are stored on the user's browser
+- User clicks on an ad from B and returns to A
+
+The image explains how third-party cookies enable websites to remember users across different sites, allowing for targeted advertising.

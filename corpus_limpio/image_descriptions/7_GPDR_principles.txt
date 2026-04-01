@@ -1,0 +1,12 @@
+[IMAGE: 7_GPDR_principles.webp]
+
+Descripción:
+The image provides an overview of the seven GDPR data protection principles.  
+- Purpose Limitations  
+- Lawfulness  
+- Data Minimization  
+- Storage Limitations  
+- Accountability  
+- Accuracy  
+- Confidentiality  
+This infographic illustrates the fundamental aspects of data protection required under GDPR compliance.

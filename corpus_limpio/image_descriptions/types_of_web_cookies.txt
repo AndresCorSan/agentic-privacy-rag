@@ -1,0 +1,15 @@
+[IMAGE: types_of_web_cookies.png]
+
+Descripción:
+This image illustrates various types of cookies used in web browsing and tracking.
+
+- Session Cookies
+- Persistent Cookies
+- First-Party Cookies
+- Third-Party Cookies
+- Secure Cookies
+- HttpOnly Cookies
+- Zombie Cookies
+- Super Cookies
+
+The image communicates a comprehensive overview of different cookie types and their purposes in web technologies.

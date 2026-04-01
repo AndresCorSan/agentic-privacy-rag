@@ -58,6 +58,25 @@ If you process data, you have to do so according to seven protection and account
 6. Integrity and confidentiality — Processing must be done in such a way as to ensure appropriate security, integrity, and confidentiality (e.g. by using encryption).
 7. Accountability — The data controller is responsible for being able to demonstrate GDPR compliance with all of these principles.
 
+---
+
+[IMAGE: 7_GPDR_principles.webp]
+
+Descripción:
+The image provides an overview of the seven GDPR data protection principles.  
+
+- Purpose Limitations  
+- Lawfulness  
+- Data Minimization  
+- Storage Limitations  
+- Accountability  
+- Accuracy  
+- Confidentiality  
+
+This infographic illustrates the fundamental aspects of data protection required under GDPR compliance.
+
+---
+
 ### Accountability
 
 The GDPR says data controllers have to be able to demonstrate they are GDPR compliant. And this isn’t something you can do after the fact: If you think you are compliant with the GDPR but can’t show how, then you’re not GDPR compliant. Among the ways you can do this:
@@ -131,6 +150,27 @@ Below is a rundown of data subjects’ privacy rights:
 - The right to data portability
 - The right to object
 - Rights in relation to automated decision making and profiling.
+
+---
+
+[IMAGE: GPDR_rights.jpg]
+
+Descripción:
+The image outlines the 8 GDPR rights for individuals with clear icons and concise descriptions for each right.
+
+- The right to be informed
+- The right of access
+- The right to rectification
+- The right to erasure
+- The right to restrict processing
+- The right to data portability
+- The right to object
+- Rights in relation to automated decision-making and profiling
+
+This image illustrates the core principles of data protection and individual rights under the GDPR, emphasizing transparency and control over personal data.
+
+
+---
 
 ## Conclusion
 
