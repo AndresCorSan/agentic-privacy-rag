@@ -59,19 +59,19 @@ Para utilizar la totalidad o parte del Servicio de Spotify, es posible que tenga
 
 Spotify puede exigirle que cambie su nombre de usuario por cualquier motivo.
 
-Acceso al Servicio de Spotify
+### Acceso al Servicio de Spotify
 
 Con sujeción al cumplimiento por su parte de los presentes Términos, incluidos otros términos y condiciones aplicables, le otorgamos un permiso limitado, no exclusivo y revocable para hacer un uso personal y no comercial del Servicio de Spotify y del Contenido (en conjunto, el << Acceso >>). Solo debe acceder a la versión del Servicio Spotify que se ofrece en su país de residencia. Este Acceso permanecerá vigente hasta que usted o Spotify lo den por terminado. Acepta y se compromete a no redistribuir, vender ni transferir el Servicio de Spotify ni el Contenido.
 
 Las aplicaciones de software de Spotify y el Contenido se conceden bajo licencia, no son objeto de venta ni de transferencia, y Spotify y sus licenciantes conservan la propiedad de todas las copias de las aplicaciones de software de Spotify y del Contenido, incluso después de su instalación en sus Dispositivos.
 
-Derechos de propiedad de Spotify
+### Derechos de propiedad de Spotify
 
 El Servicio de Spotify y el Contenido son propiedad de Spotify o de los licenciantes de Spotify. Todas las marcas comerciales, las marcas de servicio, los nombres comerciales, los logotipos, los nombres de dominio y cualquier otra característica de la marca Spotify (" Características de la marca Spotify ") son propiedad exclusiva de Spotify o de sus licenciantes. Los presentes Términos no le otorgan ningún derecho de uso de las Características de la Marca Spotify, ya sea con fines comerciales o no comerciales.
 
 Usted se compromete a respetar las Directrices del usuario de Spotify y las Normas de la plataforma , así como a no utilizar el Servicio de Spotify, el Contenido ni ninguna parte del mismo de ninguna manera que no esté expresamente permitida por los Acuerdos.
 
-Suscripciones de pago
+### Suscripciones de pago
 
 Puede adquirir una Suscripción de pago directamente a Spotify o a través de un tercero, ya sea mediante:
 
@@ -83,7 +83,7 @@ Si adquiere el acceso a una Suscripción de pago a través de un tercero, podrá
 
 Si paga por el acceso a Contenido de audiolibros fuera de su Suscripción de pago, su acceso se regirá por los Términos y condiciones de compra de audiolibros .
 
-Cambios de precios e impuestos
+### Cambios de precios e impuestos
 
 Spotify podrá modificar ocasionalmente el precio de las Suscripciones de pago, incluidas las cuotas de suscripción periódicas, el Periodo de prepago (para los periodos aún no pagados) o los Códigos (definidos anteriormente), para reflejar circunstancias como cambios en las ofertas y características de los productos, cambios en el negocio o cambios en el contexto económico, o por motivos de seguridad, legales o normativos, comunicando por cualquier medio razonable, incluido por correo electrónico o mediante una notificación en la aplicación o de otro modo, cualquier cambio de precio con una antelación razonable, en cualquier caso no inferior a 30 días. Los cambios de precio entrarán en vigor al inicio del siguiente periodo de suscripción que siga a la fecha del cambio de precio. Con arreglo a la legislación aplicable, si sigue utilizando el Servicio de Spotify una vez que el cambio de precio entre en vigor, se entenderá que ha aceptado el nuevo precio. Si no está de acuerdo con un cambio de precio, podrá rechazar dicho cambio dándose de baja de la Suscripción de pago correspondiente antes de que el cambio de precio entre en vigor.
 
@@ -91,7 +91,7 @@ Los tipos impositivos se basan en los tipos aplicables en el momento de su cobro
 
 El precio de una Suscripción de pago o Prueba es específico de la versión del Servicio de Spotify que se ofrece en su país de residencia y usted se compromete a no utilizar ningún medio para acceder a la Suscripción de pago o Prueba sin abonar el precio correspondiente o frustrar los intentos legítimos de Spotify de cobrar dicho Acceso.
 
-Facturación y cancelación
+### Facturación y cancelación
 
 A menos que se indique lo contrario (por ejemplo, si se ha suscrito a un Periodo de prepago), las Suscripciones de pago continúan indefinidamente hasta que se cancelan. Se le facturará de forma periódica el primer día de cada periodo de facturación y usted pagará y nos autorizará (o al tercero correspondiente, si se suscribe a través de un tercero) a cargar en su método de pago la cuota de suscripción vigente en ese momento.
 
@@ -121,29 +121,29 @@ Usted acepta cumplir todas las Leyes de Control Comercial aplicables al utilizar
 
 ## 4. Contenido y derechos de propiedad intelectual
 
-El contenido que usted publica en el servicio
+### El contenido que usted publica en el servicio
 
 Los usuarios de Spotify podrán publicar, subir o aportar de otro modo contenidos al Servicio de Spotify (en lo sucesivo, el << Contenido de usuario >>). Para evitar dudas, el << Contenido de usuario >> incluye toda la información, los materiales, los mensajes u otras comunicaciones y otros contenidos que los usuarios añadan, creen, suban, envíen, distribuyan o publiquen en el Servicio de Spotify. Para obtener más información sobre los Contenidos de usuario u otros contenidos de terceros y su moderación, consulte las Normas de la plataforma , información acerca de Acciones de contenido y nuestra Política de propiedad intelectual .
 
-Usted es el único responsable de todo el Contenido de usuario que publique
+### Usted es el único responsable de todo el Contenido de usuario que publique
 
 Promete que, con respecto a cualquier Contenido de usuario que publique en Spotify, (1) es propietario de dicho Contenido de usuario o tiene derecho a publicarlo, y (2) dicho Contenido de usuario, o su uso por parte de Spotify de acuerdo con la licencia otorgada a continuación: (i) no infringe estos Términos, la legislación aplicable, la propiedad intelectual u otros derechos de terceros; o (ii) no implica ninguna afiliación o aprobación de usted o de su Contenido de usuario por parte de Spotify o de cualquier artista, banda, discográfica u otra persona o entidad sin el consentimiento previo y expreso por escrito de Spotify o de dicha persona o entidad.
 
 Podemos brindarle la posibilidad de publicar o compartir Contenido de usuario de diferentes formas en el Servicio de Spotify, incluido el envío de mensajes o comunicaciones a otros usuarios de Spotify. Al publicar o compartir Contenido de usuario u otra información en el Servicio de Spotify, deberá tener en cuenta que, en función del método de publicación o compartición, el contenido y demás información se podrán transmitir de forma privada a uno o varios usuarios o podrán ser de acceso público y podrán ser utilizados y compartidos por otros en el Servicio de Spotify y en toda la red, por lo que le recomendamos que tenga cuidado al publicar o compartir en el Servicio de Spotify, y que ajuste convenientemente la configuración de su cuenta. Spotify no es responsable de lo que usted u otras personas publiquen o compartan en el Servicio de Spotify.
 
-Supervisión del contenido de usuario
+### Supervisión del contenido de usuario
 
 Spotify puede supervisar o revisar el Contenido de Usuario (tanto si se ha publicado como si se ha transmitido de forma privada), pero no tiene la obligación general de hacerlo. Spotify se reserva el derecho a tomar medidas que afecten a la disponibilidad, visibilidad y accesibilidad de los Contenidos de usuario. Para obtener más información sobre las medidas de Spotify contra el contenido ilegal y el contenido que infringe las políticas de Spotify (incluidas nuestras Directrices del usuario y las Normas de la plataforma ), y para obtener más detalles sobre cómo denunciar contenidos, así como sobre cómo recurrir acciones de contenidos, consulte nuestras Normas de la plataforma , nuestro Centro de seguridad y privacidad e información acerca de las Acciones de contenido .
 
-Contenido de usuario
+### Contenido de usuario
 
 Usted conserva la propiedad de su Contenido de Usuario cuando lo publica en el Servicio. No obstante, para que podamos poner su Contenido de usuario a disposición del Servicio de Spotify y proporcionarle determinadas características y funciones, necesitamos que nos conceda una licencia limitada sobre dicho Contenido de usuario. En consecuencia, usted concede a Spotify una licencia no exclusiva, transferible, sublicenciable, libre de derechos, totalmente pagada e irrevocable, a escala mundial, para reproducir, poner a disposición, ejecutar y mostrar, traducir, modificar, crear obras derivadas, distribuir y utilizar de cualquier otro modo dicho Contenido de usuario a través de cualquier medio, ya sea solo o en combinación con otros Contenidos o materiales, de cualquier forma y por cualquier medio, método o tecnología, conocidos en la actualidad o que se creen en el futuro, en relación con el Servicio de Spotify. Cuando proceda y en la medida en que lo permita la legislación aplicable, usted también acepta renunciar a cualquier << derecho moral >> o derechos equivalentes, como el derecho a ser identificado como autor de cualquier Contenido de usuario, incluidos los Comentarios, y su derecho a oponerse al tratamiento despectivo de dicho Contenido de usuario, y acepta no hacer valer dichos derechos.
 
-Comentarios
+### Comentarios
 
 Si usted aporta ideas, sugerencias u otros comentarios en relación con su uso del Servicio de Spotify o de cualquier Contenido (en lo sucesivo, los << Comentarios >>), dichos Comentarios no son confidenciales y podrán ser utilizados por Spotify sin restricciones y sin que usted reciba pago alguno. Las Opiniones tienen la consideración de un tipo de Contenido de usuario en virtud de los presentes Términos.
 
-Su Dispositivo
+### Su Dispositivo
 
 Asimismo, nos concede el derecho (1) de permitir que el Servicio de Spotify utilice el procesador, el ancho de banda y el hardware de almacenamiento de su Dispositivo con el fin de facilitar el funcionamiento del Servicio de Spotify, (2) de proporcionarle publicidad y otra información, y de permitir que nuestros socios comerciales hagan lo mismo, en la medida en que esté permitido de conformidad con la Política de privacidad de Spotify .
 
@@ -190,41 +190,6 @@ Usted reconoce y acepta que los propietarios del Contenido y ciertos distribuido
 Si ha descargado cualquiera de nuestras aplicaciones de software para móvil (cada una, una " Aplicación ") de App Store de Apple Inc. (" Apple ") o si utiliza la aplicación en un dispositivo iOS, reconoce que ha leído, entendido y aceptado el siguiente aviso relativo a Apple. Los presentes Términos se establecen únicamente entre usted y Spotify, no con Apple, y Apple no es responsable del Servicio de Spotify ni del contenido del mismo. Apple no tiene obligación alguna de proporcionar ningún servicio de mantenimiento y soporte con respecto al Servicio de Spotify. En caso de que el Servicio de Spotify no cumpla alguna de las garantías aplicables, podrá notificar a Apple, y Apple le reembolsará el precio de compra aplicable da la aplicación y, en la medida en que lo permita la ley aplicable, Apple no tendrá ninguna otra obligación de garantía con respecto al Servicio de Spotify. Apple no se hace responsable de atender ninguna reclamación que usted o un tercero presenten en relación con el Servicio de Spotify o con su posesión o uso del Servicio de Spotify, lo que incluye: (1) reclamaciones de responsabilidad del producto; (2) cualquier reclamación acerca de que el Servicio de Spotify no cumple algún requisito legal o normativo aplicable; (3) reclamaciones que surjan en el marco de la legislación sobre protección del consumidor de carácter similar, y (4) reclamaciones con respecto a la infracción de la propiedad intelectual. Apple no se hace responsable de la investigación, la defensa, la resolución ni el descargo de cualquier reclamación de terceros relativa a las hipotéticas infracciones de derechos de propiedad de un tercero por parte del Servicio de Spotify o de la posesión y el uso de la aplicación por su parte. Acepta cumplir los términos de terceros aplicables cuando utilice el Servicio de Spotify. Apple, y las filiales de Apple, son terceros beneficiarios de los presentes Términos, y una vez que usted los acepte, Apple tendrá el derecho (y se considerará que ha aceptado el derecho) de hacer cumplir estos Términos contra usted como tercero beneficiario de los mismos.
 
 Usted acepta liberar de responsabilidad a Spotify por cualquier gasto razonable, pérdida directa y daño razonablemente previsibles (incluidos los honorarios razonables de los abogados y las costas) que Spotify sufra o en los que Spotify incurra como consecuencia de o en relación con: (1) el incumplimiento por su parte de cualquiera de los presentes Términos (incluidos los términos y condiciones adicionales de Spotify incorporados a este documento); (2) cualquier Contenido de usuario que usted publique o aporte de otro modo; (3) cualquier actividad en la que participe en el Servicio de Spotify o a través del mismo, y (4) la infracción por su parte de cualquier ley o de los derechos de un tercero.
-
-### Ley aplicable, arbitraje obligatorio y jurisdicción
-
-Salvo que las leyes obligatorias de su país de residencia exijan lo contrario, los Contratos (y cualquier conflicto/reclamación no contractual que surja de o en relación con los mismos) están sujetos a las leyes del estado o país indicado a continuación, sin tener en cuenta los principios de elección o conflicto de leyes.
-
-Asimismo, usted y Spotify aceptan la jurisdicción de los tribunales que se indican a continuación para resolver cualquier controversia, reclamación o litigio que surja en relación con los Contratos, así como cualquier controversia/reclamación no contractual que surja de o en relación con los mismos, excepto en aquellos casos en los que, en virtud de las leyes obligatorias aplicables, usted pueda optar por entablar un procedimiento judicial en su país de residencia, o nosotros estemos obligados a entablar un procedimiento judicial únicamente en su país de residencia.
-
-
-| País o región | Elección de la ley | Jurisdicción |
-| --- | --- | --- |
-| Todos los demás países y regiones en los que Spotify está disponible. | Leyes de Suecia | Exclusiva; tribunales de Suecia |
-| Bulgaria, Chipre, Eslovaquia, España, Estonia, Filipinas, Francia, Hong Kong, Letonia, Lituania, Luxemburgo, Malta, Mónaco, Noruega, Portugal y Turquía | Leyes de Suecia | No exclusiva; tribunales de Suecia |
-| Brasil | Leyes de Brasil | Exclusiva; tribunales estatales y federales de São Paulo, Estado de São Paulo, Brasil |
-| Canadá | No aplicable a residentes de Quebec: Leyes de la provincia de Ontario Residentes de Quebec: Leyes de la provincia de Quebec (Canadá) | No aplicable a residentes de Quebec: Exclusiva salvo para la ejecución de sentencias; tribunales de Ontario (Canadá) Residentes de Quebec: Tribunales de Quebec (Canadá) |
-| Bolivia, Chile, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, Nicaragua, Panamá, Paraguay, Perú, República Dominicana y Uruguay | Estado de Nueva York (Estados Unidos) | Exclusiva; tribunales estatales y federales del condado de Nueva York, NY |
-
-SIEMPRE QUE LO PERMITA LA LEGISLACIÓN APLICABLE, USTED Y SPOTIFY ACUERDAN QUE CADA UNO PUEDE PRESENTAR RECLAMACIONES CONTRA EL OTRO ÚNICAMENTE A TÍTULO INDIVIDUAL Y NO COMO DEMANDANTE O MIEMBRO DE UN GRUPO EN UNA SUPUESTA DEMANDA COLECTIVA O ACCIÓN DE REPRESENTACIÓN. A menos que tanto usted como Spotify estén de acuerdo, ningún árbitro o juez puede agrupar las reclamaciones de más de una persona ni presidir ninguna forma de procedimiento colectivo o representativo.
-
-Si usted se encuentra, tiene su sede, sus oficinas o hace negocios en una jurisdicción en la que sea de aplicación la presente cláusula 6.3, las siguientes disposiciones de arbitraje son de aplicación en su caso:
-
-Usted y Spotify acuerdan que cualquier controversia, reclamación o litigio entre usted y Spotify que surja en relación con estos Contratos o con su relación con Spotify como usuario del Servicio (tanto si se basa en un contrato, en un acto ilícito, en una ley, en un fraude, en una tergiversación o en cualquier otra teoría jurídica, y tanto si las reclamaciones surgen durante o después de la finalización de los Contratos) se determinará mediante un arbitraje individual obligatorio. El arbitraje es más informal que una demanda judicial. EN EL ARBITRAJE NO HAY JUEZ NI JURADO, Y LA REVISIÓN JUDICIAL DE UN LAUDO ARBITRAL ES LIMITADA. El proceso de presentación de pruebas puede ser más limitado que en un tribunal. El árbitro está obligado a respetar el presente contrato y podrá conceder los mismos daños y perjuicios que un tribunal (incluidos los honorarios de los abogados), con la salvedad de que el árbitro solo podrá conceder medidas declaratorias o cautelares que beneficien a las partes del arbitraje. Esta disposición de arbitraje seguirá vigente tras la terminación de los Contratos.
-
-No obstante lo dispuesto en la cláusula 6.3.1 anterior, tanto usted como Spotify acuerdan que nada de lo aquí expuesto se considerará en ningún momento como un impedimento ni una limitación de cualquiera de nuestros derechos, ni como una renuncia a los mismos, para (1) interponer una acción individual por un proceso de escasa cuantía, (2) emprender acciones de ejecución a través de los organismos federales, estatales o locales aplicables cuando dichas acciones estén disponibles, (3) solicitar medidas cautelares en juicio, o (4) interponer una demanda judicial para hacer frente a reclamaciones por infracción de la propiedad intelectual.
-
-Tanto usted como nosotros tenemos derecho a iniciar un procedimiento de arbitraje. Todo arbitraje entre usted y Spotify se resolverá definitivamente con arreglo al Reglamento de Arbitraje de la Cámara de Comercio Internacional (la << CCI >>) vigente en ese momento (el << Reglamento de la CCI >>) por uno o más árbitros designados de conformidad con el Reglamento de la CCI, modificado por los presentes Contratos, y será administrado por la Corte Internacional de Arbitraje de la CCI.
-
-Los arbitrajes se llevarán a cabo en inglés y, a menos que se requiera lo contrario por una ley de un estado miembro de la Unión Europea o cualquier otra jurisdicción, la ley que se aplicará en cualquier arbitraje será la ley del Estado o el país pertinente descrito en la cláusula 6.1, sin tener en cuenta los principios de libertad de elección o de conflicto de leyes.
-
-Todo arbitraje deberá iniciarse mediante la presentación de una solicitud de arbitraje en el plazo de UN (1) AÑO desde la fecha en que la parte que hace valer la reclamación tenga conocimiento por primera vez, o debiera tenerlo, del acto, la omisión o el incumplimiento que da lugar a la reclamación, y no habrá derecho a ningún recurso por cualquier reclamación que no se haga valer dentro de dicho plazo. Si la legislación aplicable prohíbe un periodo de prescripción de un año para hacer valer las reclamaciones, cualquier reclamación deberá hacerse valer dentro del periodo más corto permitido por la legislación aplicable.
-
-La parte que pretenda recurrir al arbitraje deberá enviar primero una notificación por escrito de la controversia a la otra parte, por correo certificado o Federal Express (se requiere firma), o, en el caso de que no tengamos una dirección física en nuestros archivos, por correo electrónico (en lo sucesivo, la << Notificación >>). La dirección de Spotify para el Aviso es: Spotify, A/A: General Counsel, 4 World Trade Center, 150 Greenwich Street, 62nd Floor, New York, New York 10007, USA. La Notificación deberá (1) describir la naturaleza y el fundamento de la reclamación o disputa, y (2) exponer la reparación específica solicitada (la << Demanda >>). Nos comprometemos a actuar de buena fe para resolver la reclamación directamente, pero si no llegáramos a un acuerdo a tal efecto dentro de los 30 días siguientes a la recepción de la Notificación, usted o Spotify pueden iniciar un procedimiento de arbitraje. Durante el arbitraje, el importe de cualquier oferta de conciliación realizada por usted o por Spotify no se revelará al árbitro hasta después de que dicho árbitro tome una decisión y emita un laudo definitivo, si procede. En el supuesto de que nuestra controversia se resuelva finalmente en su favor mediante arbitraje, Spotify le pagará (1) la cantidad concedida por el árbitro, si la hubiera, (2) la última cantidad ofrecida por escrito por Spotify para resolver la controversia antes del laudo del árbitro; o (3) 1.000 USD, el importe que sea mayor. El receptor deberá mantener de manera estrictamente confidencial todos los documentos y la información revelados en el curso del arbitraje y no deberá utilizarlos para ningún fin distinto de los fines del arbitraje o la ejecución de la decisión y el laudo del árbitro, y no se deberán revelar excepto de forma confidencial a personas que tengan necesidad de conocerlos para tales fines o según lo requiera la ley aplicable. Excepto cuando sea necesario para aplicar la decisión y el laudo del árbitro, ni usted ni Spotify harán ningún anuncio o comentario público ni crearán ninguna publicidad relacionada con el arbitraje, lo que incluye, entre otras cosas, el hecho de que existe una controversia entre las partes, la existencia del arbitraje o cualquier decisión o laudo del árbitro.
-
-En caso de que Spotify introduzca en el futuro alguna modificación en la presente disposición de arbitraje, salvo que se trate de un cambio en la dirección de Notificación de Spotify, usted puede rechazar dicha modificación enviándonos una notificación por escrito en un plazo de 30 días a partir de la modificación de la dirección de Notificación de Spotify, en cuyo caso su cuenta con Spotify quedará cancelada de inmediato y la presente disposición de arbitraje, en su versión inmediatamente anterior a las modificaciones que usted rechace, seguirá vigente.
-
-En caso de que la renuncia a la acción colectiva de la cláusula 6.2 se considere inaplicable en el arbitraje o si cualquier parte de esta cláusula 6.3 se considera inválida o inaplicable, la totalidad de la presente cláusula 6.3 será nula y, en tal caso, las partes acuerdan que la jurisdicción y el lugar exclusivos descritos en la cláusula 6.1 regirán cualquier acción que surja de los Acuerdos o esté relacionada con los mismos, y no se le impedirá entablar procedimientos en ningún momento.
 
 ## 7. Acerca de los presentes Términos y condiciones
 

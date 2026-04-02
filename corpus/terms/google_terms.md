@@ -6,12 +6,6 @@ Fuente: https://policies.google.com/terms
 
 ## Privacy & Terms
 
-
-
-
-
-
-
   - Introduction
   - Your relationship with Google
   - Using Google services
@@ -21,12 +15,7 @@ Fuente: https://policies.google.com/terms
   - About these terms
   - EEA instructions on withdrawal
 
-
-
-
 # Google Terms of Service
-
-Effective May 22, 2024 | Archived versions | Download PDF
 
 Country version: Spain
 
@@ -36,10 +25,10 @@ Country version: Spain
 
 These Terms of Service reflect the way Google’s business works , the laws that apply to our company, and certain things we’ve always believed to be true . As a result, these Terms of Service help define Google’s relationship with you as you interact with our services. For example, these terms include the following topic headings:
 
-- , which describes how we provide and develop our services
-- , which establishes certain rules for using our services
-- , which describes the intellectual property rights to the content you find in our services — whether that content belongs to you, Google, or others
-- , which describes other legal rights you have, and what to expect in case someone violates these terms
+- What you can expect from us, which describes how we provide and develop our services
+- What we expect from you, which establishes certain rules for using our services
+- Content in Google services, which describes the intellectual property rights to the content you find in our services — whether that content belongs to you, Google, or others
+- In case of problems or disagreements, which describes other legal rights you have, and what to expect in case someone violates these terms
 Understanding these terms is important because, to use our services, you must accept these terms. We encourage you to download these terms for future reference. We make these terms, and all previous versions, available at all times here .
 
 Besides these terms, we also publish a Privacy Policy . Although it’s not part of these terms, we encourage you to read it to better understand how you can update, manage, export, and delete your information .
@@ -102,7 +91,7 @@ If a modification negatively affects your ability to access or use our digital c
 ### Follow these terms and service-specific additional terms
 
 
-- , which could, for example, include things like additional age requirements
+- Service-specific additional terms, which could, for example, include things like additional age requirements
 We also make various policies, help centers, and other resources available to you to answer common questions and to set expectations about using our services. These resources include our Privacy Policy , Copyright Help Center , Safety Center , Transparency Center , and other pages accessible from our policies site . Finally, we may provide specific instructions and warnings within our services – such as dialog boxes that alert you to important information.
 
 Although we give you permission to use our services, we retain any intellectual property rights we have in the services.
@@ -172,12 +161,12 @@ This license allows Google to:
 
 This license is for the limited purpose of:
 
-- , which means allowing the services to work as designed and creating new features and functionalities. This  includes using automated systems and algorithms to analyze your content:
+- Manage and improve services, which means allowing the services to work as designed and creating new features and functionalities. This  includes using automated systems and algorithms to analyze your content:
   - for spam, malware, and illegal content
   - to recognize patterns in data, such as determining when to suggest a new album in Google Photos to keep related photos together
   - to customize our services for you, such as providing recommendations and personalized search results, content, and ads (which you can change or turn off in Ads Settings )
-- . For example, to promote a Google app, we might quote a review you wrote. Or to promote Google Play, we might show a screenshot of the app you offer in the Play Store.
-- for Google consistent with these terms
+- Use content you have shared publicly to promote our services. For example, to promote a Google app, we might quote a review you wrote. Or to promote Google Play, we might show a screenshot of the app you offer in the Play Store.
+- Develop new technologies and services for Google consistent with these terms
 ### Duration
 
 This license lasts for as long as your content is protected by intellectual property rights.
@@ -196,6 +185,8 @@ You’re responsible for what you do with your Google Account, including taking 
 
 ## Using Google services on behalf of an organization or business
 
+Many organisations, such as businesses, charities and educational institutions, use our services. To use our services on behalf of an organisation:
+
 - an authorized representative of that organization must agree to these terms
 - your organization’s administrator may assign a Google Account to you. That administrator might require you to follow additional rules and may be able to access or disable your Google Account.
 ## Service-related communications
@@ -212,8 +203,9 @@ Some of our services allow you to generate original content. Google won’t clai
 
 Some of our services give you the opportunity to make your content publicly available — for example, you might post a product or restaurant review that you wrote, or you might upload a blog post that you created.
 
-- See the
-- See the
+- See the ‘Permission to use your content’ section for more information about your rights regarding your content and how we use it in our services.
+- See the ‘Removing your content’ section to find out why we may remove user-generated content from our services and how we do so.
+
 If you think someone is infringing your intellectual property rights , you can send us notice of the infringement and we’ll take appropriate action. For example, we suspend or close the Google Accounts of repeat copyright infringers as described in our Copyright Help Center .
 
 ## Google content
@@ -286,10 +278,10 @@ If we reasonably believe that any of your content (1) breaches these terms, serv
 
 Without limiting any of our other rights, Google may suspend or terminate your access to the services or delete your Google Account if any of these things happen:
 
-- you materially or repeatedly breach these terms,
+- you materially or repeatedly breach these terms, any additional terms specific to the services or policies.
 - we’re required to do so to comply with a legal requirement or a court order
 - we reasonably believe that your conduct causes harm or
-For more information about why we disable accounts and what happens when we do, see this Help Center page . If you believe your Google Account has been suspended or terminated in error, you can appeal .
+For more information about why we disable accounts and what happens when we do, see this Help Center page . If you believe your Google Account has been suspended or terminated in error, you can appeal your decision.
 
 Of course, you’re always free to stop using our services at any time. If you’re an EEA-based consumer , you can also withdraw from these terms within 14 days of accepting them. If you do stop using a service, we’d appreciate knowing why so that we can continue improving our services.
 
@@ -499,74 +491,4 @@ Things that you create, upload, submit, store, send, receive, or share using our
 - emails you send and receive through Gmail
 - pictures you share with friends through Photos
 - travel itineraries that you share with Google
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

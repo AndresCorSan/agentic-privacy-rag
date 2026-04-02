@@ -46,22 +46,49 @@ Data processor — A third party that processes personal data on behalf of a dat
 
 For the rest of this article, we will briefly explain all the key regulatory points of the GDPR.
 
+### Data protection principles
+
 If you process data, you have to do so according to seven protection and accountability principles outlined in Article 5.1-2 :
 
-- — Processing must be lawful, fair, and transparent to the data subject.
-- — You must process data for the legitimate purposes specified explicitly to the data subject when you collected it.
-- — You should collect and process only as much data as absolutely necessary for the purposes specified.
-- — You must keep personal data accurate and up to date.
-- — You may only store personally identifying data for as long as necessary for the specified purpose.
-- — Processing must be done in such a way as to ensure appropriate security, integrity, and confidentiality (e.g. by using encryption).
-- — The data controller is responsible for being able to demonstrate GDPR compliance with all of these principles.
+1. Lawfulness, fairness and transparency — Processing must be lawful, fair, and transparent to the data subject.
+2. Purpose limitation — You must process data for the legitimate purposes specified explicitly to the data subject when you collected it.
+3. Data minimization — You should collect and process only as much data as absolutely necessary for the purposes specified.
+4. Accuracy — You must keep personal data accurate and up to date.
+5. Storage limitation — You may only store personally identifying data for as long as necessary for the specified purpose.
+6. Integrity and confidentiality — Processing must be done in such a way as to ensure appropriate security, integrity, and confidentiality (e.g. by using encryption).
+7. Accountability — The data controller is responsible for being able to demonstrate GDPR compliance with all of these principles.
+
+---
+
+[IMAGE: 7_GPDR_principles.webp]
+
+Descripción:
+The image provides an overview of the seven GDPR data protection principles.  
+
+- Purpose Limitations  
+- Lawfulness  
+- Data Minimization  
+- Storage Limitations  
+- Accountability  
+- Accuracy  
+- Confidentiality  
+
+This infographic illustrates the fundamental aspects of data protection required under GDPR compliance.
+
+---
+
+### Accountability
+
 The GDPR says data controllers have to be able to demonstrate they are GDPR compliant. And this isn’t something you can do after the fact: If you think you are compliant with the GDPR but can’t show how, then you’re not GDPR compliant. Among the ways you can do this:
 
 - Designate data protection responsibilities to your team.
 - Maintain detailed documentation of the data you’re collecting, how it’s used, where it’s stored, which employee is responsible for it, etc.
 - Train your staff and implement technical and organizational security measures.
 - Have Data Processing Agreement contracts in place with third parties you contract to process data for you.
-- Appoint a Data Protection Officer (though not all organizations need one — more on that in
+- Appoint a Data Protection Officer (though not all organizations need one)
+
+### Data security
+
 You’re required to handle data securely by implementing “ appropriate technical and organizational measures .”
 
 Technical measures mean anything from requiring your employees to use two-factor authentication on accounts where personal data are stored to contracting with cloud providers that use end-to-end encryption .
@@ -70,19 +97,26 @@ Organizational measures are things like staff trainings , adding a data privacy 
 
 If you have a data breach, you have 72 hours to tell the data subjects or face penalties. (This notification requirement may be waived if you use technological safeguards, such as encryption, to render data useless to an attacker.)
 
+### Data protection by design and by default
+
 From now on, everything you do in your organization must, “by design and by default,” consider data protection. Practically speaking, this means you must consider the data protection principles in the design of any new product or activity. The GDPR covers this principle in Article 25 .
 
 Suppose, for example, you’re launching a new app for your company. You have to think about what personal data the app could possibly collect from users, then consider ways to minimize the amount of data and how you will secure it with the latest technology.
 
+### When you’re allowed to process data
+
 Article 6 lists the instances in which it’s legal to process person data. Don’t even think about touching somebody’s personal data — don’t collect it, don’t store it, don’t sell it to advertisers — unless you can justify it with one of the following:
 
-- The data subject gave you specific,
-- Processing is necessary to execute or to prepare
-- You need to process it
-- You need to process the data
-- Processing is necessary
-- You have a
+1. The data subject gave you specific, unambiguous consent to process the data. (e.g. They’ve opted in to your marketing email list.)
+2. Processing is necessary to execute or to prepare to enter into a contract to which the data subject is a party. (e.g. You need to do a background check before leasing property to a prospective tenant.)
+3. You need to process it to comply with a legal obligation of yours. (e.g. You receive an order from the court in your jurisdiction.)
+4. You need to process the data to save somebody’s life. (e.g. Well, you’ll probably know when this one applies.)
+5. Processing is necessary to perform a task in the public interest or to carry out some official function. (e.g. You’re a private garbage collection company.)
+6. You have a legitimate interest to process someone’s personal data. This is the most flexible lawful basis, though the “fundamental rights and freedoms of the data subject” always override your interests, especially if it’s a child’s data. (It’s difficult to give an example here because there are a variety of factors you’ll need to consider for your case. The UK Information Commissioner’s Office provides helpful guidance here.)
+
 Once you’ve determined the lawful basis for your data processing, you need to document this basis and notify the data subject (transparency!). And if you decide later to change your justification, you need to have a good reason, document this reason, and notify the data subject.
+
+### Consent
 
 There are strict new rules about what constitutes consent from a data subject to process their information.
 
@@ -91,14 +125,18 @@ There are strict new rules about what constitutes consent from a data subject to
 - Data subjects can withdraw previously given consent whenever they want, and you have to honor their decision. You can’t simply change the legal basis of the processing to one of the other justifications.
 - Children under 13 can only give consent with permission from their parent.
 - You need to keep documentary evidence of consent.
+
+### Data Protection Officers
+
 Contrary to popular belief, not every data controller or processor needs to appoint a Data Protection Officer (DPO) . There are three conditions under which you are required to appoint a DPO:
 
 - You are a public authority other than a court acting in a judicial capacity.
 - Your core activities require you to monitor people systematically and regularly on a large scale. (e.g. You’re Google.)
-- Your core activities are large-scale processing of special categories of data listed under
+- Your core activities are large-scale processing of special categories of data listed under Article 9 of the GDPR or data relating to criminal convictions and offenses mentioned in Article 10. (e.g. You’re a medical office.)
+
 You could also choose to designate a DPO even if you aren’t required to. There are benefits to having someone in this role. Their basic tasks involve understanding the GDPR and how it applies to the organization, advising people in the organization about their responsibilities, conducting data protection trainings, conducting audits and monitoring GDPR compliance, and serving as a liaison with regulators.
 
-We go in depth about the DPO role in another article .
+### People’s privacy rights
 
 You are a data controller and/or a data processor. But as a person who uses the Internet, you’re also a data subject. The GDPR recognizes a litany of new privacy rights for data subjects , which aim to give individuals more control over the data they loan to organizations. As an organization, it’s important to understand these rights to ensure you are GDPR compliant.
 
@@ -112,18 +150,29 @@ Below is a rundown of data subjects’ privacy rights:
 - The right to data portability
 - The right to object
 - Rights in relation to automated decision making and profiling.
-### Conclusion
+
+---
+
+[IMAGE: GPDR_rights.jpg]
+
+Descripción:
+The image outlines the 8 GDPR rights for individuals with clear icons and concise descriptions for each right.
+
+- The right to be informed
+- The right of access
+- The right to rectification
+- The right to erasure
+- The right to restrict processing
+- The right to data portability
+- The right to object
+- Rights in relation to automated decision-making and profiling
+
+This image illustrates the core principles of data protection and individual rights under the GDPR, emphasizing transparency and control over personal data.
+
+
+---
+
+## Conclusion
 
 We’ve just covered all the major points of the GDPR in a little over 2,000 words. The regulation itself (not including the accompanying directives) is 88 pages. If you’re affected by the GDPR, we strongly recommend that someone in your organization reads it and that you consult an attorney to ensure you are GDPR compliant.
 
-### Related Posts
-
-
-
-
-
-
-
-A journalist by training, Ben has reported and covered stories around the world. He joined Proton to help lead the fight for data privacy.
-
-GDPR compliance is easier with encrypted email

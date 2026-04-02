@@ -47,7 +47,6 @@ The image explains the mechanism behind cookies in web browsing, highlighting th
 
 ---
 
-
 To put it simply, cookies are a bit like getting a ticket for a coat check:
 
 - You hand over your “coat” to the cloak desk. You connect/visit a website and a pocket of data is linked to you on the website’s server. This data can be your personal account, your shopping cart or even just what pages you’ve visited.
