@@ -57,7 +57,7 @@ def analyze_folder(folder_path):
 # =========================
 
 if __name__ == "__main__":
-    path = "corpus_limpio\\"  # ruta al archivo o carpeta a analizar
+    path = "corpus\\"  # ruta al archivo o carpeta a analizar
 
     if os.path.isfile(path):
         analyze_file(path)
