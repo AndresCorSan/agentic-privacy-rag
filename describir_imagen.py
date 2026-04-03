@@ -5,20 +5,18 @@
 import base64
 import mimetypes
 import os
-
+from dotenv import load_dotenv
 from openai import OpenAI
 
-HF_TOKEN = os.getenv("HF_TOKEN", "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")
-HF_MODEL  = os.getenv("HF_MODEL", "Qwen/Qwen2.5-VL-7B-Instruct")
-PROMPTO   = os.getenv(
-    "CAPTION_PROMPT",
-    (
+load_dotenv()
+ACCESS_TOKEN = os.getenv("HF_TOKEN")
+HF_MODEL  = "Qwen/Qwen2.5-VL-7B-Instruct"
+PROMPT    = (
         "Describe this image following this exact format:\n"
         "- One opening sentence summarizing what the image shows.\n"
         "- A short bullet list (3-5 items) with the key elements, steps or concepts visible.\n"
         "- One closing sentence explaining what the image illustrates or communicates.\n"
         "Be concise. Do not add extra sections or explanations beyond this format."
-    ),
 )
 
 IMAGES_FOLDER = "corpus/images"
@@ -26,7 +24,7 @@ OUTPUT_FOLDER = "corpus/image_descriptions"
 
 CLIENT = OpenAI(
     base_url="https://router.huggingface.co/v1",
-    api_key=HF_TOKEN,
+    api_key=ACCESS_TOKEN,
 )
 
 
@@ -51,7 +49,7 @@ def generar_descripcion(imagen_path):
                 {
                     "role": "user",
                     "content": [
-                        {"type": "text", "text": PROMPTO},
+                        {"type": "text", "text": PROMPT},
                         {"type": "image_url", "image_url": {"url": data_url}},
                     ],
                 }
