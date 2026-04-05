@@ -1,20 +1,3 @@
-# google_terms
-
-Fuente: https://policies.google.com/terms
-
----
-
-## Privacy & Terms
-
-  - Introduction
-  - Your relationship with Google
-  - Using Google services
-  - Content in Google services
-  - Software in Google services
-  - In case of problems or disagreements
-  - About these terms
-  - EEA instructions on withdrawal
-
 # Google Terms of Service
 
 Country version: Spain

@@ -1,34 +1,6 @@
-# spotify_privacy
-
-Fuente: https://www.spotify.com/legal/privacy-policy/
-
----
-
 # Política de privacidad de Spotify
 
 En vigor desde el 27 de agosto de 2025
-
-1. Acerca de esta Política
-
-2. Derechos y controles sobre los datos personales
-
-3. Datos personales que recopilamos sobre ti
-
-4. Nuestra finalidad para el uso de tus datos personales
-
-5. Uso compartido de tus datos personales
-
-6. Retención de datos
-
-7. Transferencia a otros países
-
-8. Protección de tus datos personales
-
-9. Menores
-
-10. Cambios en esta Política
-
-11. Cómo ponerte en contacto con nosotros
 
 ## 1. Acerca de esta Política
 

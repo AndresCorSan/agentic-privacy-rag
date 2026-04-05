@@ -1,26 +1,6 @@
-# spotify_terms
-
-Fuente: https://www.spotify.com/legal/end-user-agreement/
-
----
-
 # Términos y Condiciones de uso de Spotify
 
 Última actualización: 26/08/2025
-
-1. Introducción
-
-2. El servicio de Spotify que proporcionamos
-
-3. Uso del servicio de Spotify
-
-4. Contenido y derechos de propiedad intelectual
-
-5. Asistencia al cliente, información, preguntas y reclamaciones
-
-6. Problemas y controversias
-
-7. Acerca de los presentes Términos y condiciones
 
 ## 1. Introducción
 

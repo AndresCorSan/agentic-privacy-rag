@@ -1,9 +1,3 @@
-# gdpr_explained
-
-Fuente: https://gdpr.eu/what-is-gdpr/
-
----
-
 # What is GDPR, the EU’s new data protection law?
 
 What is the GDPR? Europe’s new data privacy and security law includes hundreds of pages’ worth of new requirements for organizations around the world. This GDPR overview will help you understand the law and determine what parts of it apply to you.

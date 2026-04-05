@@ -1,9 +1,3 @@
-# cookies_guide
-
-Fuente: https://www.kaspersky.com/resource-center/definitions/cookies
-
----
-
 # What are Cookies?
 
 Everyone has seen the website banners that ask you if you’ll allow cookies on your browser or not. But what exactly does this mean and what are these cookies? Well, to begin with, they are essential to the modern internet experience. A necessary part of browsing the web, cookies help web developers give you a more personal and convenient website visit. In short, cookies let websites remember you, your logins, shopping carts and more. But they can also be a treasure trove of private info and a serious vulnerability to your privacy.

@@ -1,34 +1,3 @@
-# google_privacy
-
-Fuente: https://policies.google.com/privacy
-
----
-
-## Privacy & Terms
-
-- Overview
-- Privacy Policy
-- Terms of Service
-- Technologies
-- FAQ
-- Google Account
-- Privacy Policy
-- Introduction
-- Information Google collects
-- Why Google collects data
-- Your privacy controls
-- Sharing your information
-- Keeping your information secure
-- Exporting & deleting your information
-- Retaining your information
-- Compliance & cooperation with regulators
-- European requirements
-- About this policy
-- Related privacy practices
-- Data transfer frameworks
-- Key terms
-- Partners
-- Updates
 # Google Privacy Policy
 
 When you use our services, you’re trusting us with your information. We understand this is a big responsibility and work hard to protect your information and put you in control.
