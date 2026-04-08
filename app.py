@@ -1,21 +1,27 @@
 import streamlit as st
-from src.ui.chat_interface import render_chat_interface
-from src.ui.sidebar import render_sidebar
-from src.utils.session import initialize_session
+from streamlit_app.ui.sidebar import render_sidebar
+from streamlit_app.utils.session import initialize_session
 
-# ── Page configuration ───────────────────────────────────────────────────────
+# ── Page configuration ────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="RAG Expert Chat",
-    page_icon="🤖",
+    page_title="RAG Privacy Expert",
+    page_icon="🔒",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
-# ── Session initialization ───────────────────────────────────────────────────
+# ── Session initialization ────────────────────────────────────────────────────
 initialize_session()
 
-# ── Render sidebar ───────────────────────────────────────────────────────────
+# ── Sidebar (siempre visible) ─────────────────────────────────────────────────
 render_sidebar()
 
-# ── Render main chat interface ───────────────────────────────────────────────
-render_chat_interface()
+# ── Flujo principal: carga del agente -> chat ──────────────────────────────────
+if "agent_bundle" not in st.session_state:
+    # Primera carga: mostrar pantalla de inicialización
+    from streamlit_app.ui.loading import render_loading_screen
+    render_loading_screen()
+else:
+    # Agente listo: mostrar interfaz de chat
+    from streamlit_app.ui.chat_interface import render_chat_interface
+    render_chat_interface()

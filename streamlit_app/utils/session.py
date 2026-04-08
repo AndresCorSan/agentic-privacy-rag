@@ -18,7 +18,13 @@ def initialize_session():
         st.session_state.selected_model = "RAG Expert (default)"
 
     if "temperature" not in st.session_state:
-        st.session_state.temperature = 0.7
+        st.session_state.temperature = 0.2
+
+    if "top_p" not in st.session_state:
+        st.session_state.top_p = 1.0
+
+    if "max_tokens" not in st.session_state:
+        st.session_state.max_tokens = 1024
 
     if "streaming" not in st.session_state:
         st.session_state.streaming = True
@@ -47,7 +53,7 @@ def get_current_messages():
     return st.session_state.conversations[cid]["messages"]
 
 
-def add_message(role: str, content: str, sources: list = None):
+def add_message(role: str, content: str, sources: list = None, steps: list = None):
     """Append a message to the active conversation."""
     cid = st.session_state.current_conv_id
     conv = st.session_state.conversations[cid]
@@ -55,6 +61,7 @@ def add_message(role: str, content: str, sources: list = None):
         "role": role,
         "content": content,
         "sources": sources or [],
+        "steps": steps or [],
         "timestamp": datetime.now(),
     })
     # Auto-title: use first user message (trimmed)
@@ -66,3 +73,17 @@ def add_message(role: str, content: str, sources: list = None):
 def switch_conversation(conv_id: str):
     """Switch to an existing conversation."""
     st.session_state.current_conv_id = conv_id
+
+
+def delete_conversation(conv_id: str):
+    """Remove a conversation from session state."""
+    if conv_id in st.session_state.conversations:
+        del st.session_state.conversations[conv_id]
+
+        # Si borramos la actual, necesitamos saltar a otra o crear una nueva
+        if st.session_state.current_conv_id == conv_id:
+            if st.session_state.conversations:
+                # Elegir la última disponible
+                st.session_state.current_conv_id = list(st.session_state.conversations.keys())[-1]
+            else:
+                _new_conv()
