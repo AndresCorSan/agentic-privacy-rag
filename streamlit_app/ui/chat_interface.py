@@ -89,7 +89,8 @@ def render_chat_interface():
         # ── Render mensajes existentes ─────────────────────────────────
         for msg in messages:
             role = msg["role"]
-            with st.chat_message(role):
+            avatar = "streamlit_app/assets/agent_avatar.png" if role == "assistant" else "streamlit_app/assets/user_avatar.png"
+            with st.chat_message(role, avatar=avatar):
                 st.markdown(msg["content"])
 
                 # Fuentes
@@ -108,23 +109,13 @@ def render_chat_interface():
 
     if final_input:
         add_message("user", final_input)
-        with st.chat_message("user"):
+        with st.chat_message("user", avatar="streamlit_app/assets/user_avatar.png"):
             st.markdown(final_input)
 
-        with st.chat_message("assistant"):
+        with st.chat_message("assistant", avatar="streamlit_app/assets/agent_avatar.png"):
             _stream_agent_response(final_input, messages)
 
         st.rerun()
-
-    # ── Disclaimer ─────────────────────────────────────────────────────
-    st.divider()
-    st.caption(
-        "⚠️ RAG Expert puede cometer errores. "
-        "Verifica la información importante con las fuentes originales."
-    )
-
-
-
 
 
 def _render_agent_steps(steps: list):
@@ -180,7 +171,7 @@ def _stream_agent_response(question: str, prior_messages: list):
 
     # Placeholder de escritura progresiva (simula stream)
     placeholder = st.empty()
-    with st.spinner(""):
+    with st.spinner("Pensando y consultando fuentes. Un momento..."):
         try:
             answer, sources, steps = _run_agent(question, history)
             st.session_state["agent_ready"] = True

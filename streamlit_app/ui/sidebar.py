@@ -20,13 +20,6 @@ def render_sidebar():
 
         st.title("🔒 RAG Privacy Expert")
 
-        # ── Estado del agente ──────────────────────────────────────────
-        if st.session_state.get("agent_ready", False):
-            st.success("Agente listo", icon="✅")
-        else:
-            st.info("Agente no inicializado", icon="⏳")
-            
-
         # ── New conversation ───────────────────────────────────────────
         if st.button("✏️ Nueva conversación", use_container_width=True):
             new_conversation()
