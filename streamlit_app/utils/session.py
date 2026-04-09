@@ -1,7 +1,7 @@
 import streamlit as st
 import uuid
 from datetime import datetime
-
+from .summarize_title import generate_chat_title
 
 def initialize_session():
     """Initialize all session state variables."""
@@ -64,9 +64,9 @@ def add_message(role: str, content: str, sources: list = None, steps: list = Non
         "steps": steps or [],
         "timestamp": datetime.now(),
     })
-    # Auto-title: use first user message (trimmed)
+    # Auto-title: use LLM to summarize first user message
     if role == "user" and conv["title"] == "Nueva conversación":
-        title = content[:42] + ("…" if len(content) > 42 else "")
+        title = generate_chat_title(content)
         conv["title"] = title
 
 

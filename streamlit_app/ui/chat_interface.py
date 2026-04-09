@@ -32,6 +32,50 @@ SUGGESTIONS = [
 ]
 
 
+# ── Content Rendering (Multi-modal) ───────────────────────────────────────────
+
+import re
+import os
+
+def render_image(img_filename: str):
+    """Renderiza una imagen individual del corpus."""
+    img_path = os.path.join("corpus", "images", img_filename.strip())
+    if os.path.exists(img_path):
+        st.image(
+            img_path, 
+            caption=f"{img_filename}", 
+            width="stretch"
+        )
+    else:
+        st.caption(f"🖼️ _(Imagen no encontrada: {img_filename})_")
+
+def render_assistant_multimodal(content: str, steps: list = None):
+    """
+    Renderiza el contenido del asistente y, proactivamente, 
+    una galería de imágenes encontradas en sus trazas.
+    """
+    # 1. Texto principal
+    st.markdown(content)
+
+    # 2. Galería de imágenes proactivas
+    if steps:
+        found_images = []
+        for step in steps:
+            if step["type"] == "tool_return":
+                matches = re.findall(r"\[IMAGE:\s*(.*?)\]", str(step["content"]))
+                for m in matches:
+                    if m not in found_images and f"[IMAGE: {m}]" not in (content or ""):
+                        found_images.append(m)
+        
+        # Renderizar en filas de hasta 3 imágenes (33% de ancho cada una)
+        for i in range(0, len(found_images), 3):
+            batch = found_images[i : i + 3]
+            cols = st.columns(3) 
+            for idx, img_name in enumerate(batch):
+                with cols[idx]:
+                    render_image(img_name)
+
+
 # ── Helpers para el agente ────────────────────────────────────────────────────
 
 def _run_agent(question: str, history: list) -> tuple:
@@ -91,7 +135,10 @@ def render_chat_interface():
             role = msg["role"]
             avatar = "streamlit_app/assets/agent_avatar.png" if role == "assistant" else "streamlit_app/assets/user_avatar.png"
             with st.chat_message(role, avatar=avatar):
-                st.markdown(msg["content"])
+                if role == "assistant":
+                    render_assistant_multimodal(msg["content"], msg.get("steps"))
+                else:
+                    st.markdown(msg["content"])
 
                 # Fuentes
                 if msg.get("sources"):
@@ -189,9 +236,12 @@ def _stream_agent_response(question: str, prior_messages: list):
             placeholder.markdown(displayed + "▌")
             time.sleep(0.012)
         placeholder.markdown(answer)
+        # Usamos la lógica multimodal para la respuesta final
+        with st.container():
+            render_assistant_multimodal(answer, steps)
     else:
-        # Mostrar de golpe
-        placeholder.markdown(answer)
+        # Mostrar de golpe con multimodal
+        render_assistant_multimodal(answer, steps)
 
     # Fuentes
     if sources:
