@@ -131,11 +131,21 @@ def register_tools(
             if not results:
                 return "NO_RESULTS"
 
-            # Construir contexto limpio
-            return "\n\n".join(
-                f"Fuente: {r['url']}\n{r['title']}\n{r['content']}"
-                for r in results
-            )
+            # Construir contexto bien estructurado con HTML para asegurar el renderizado dentro del div
+            formatted_results = []
+            for r in results:
+                url = r['url']
+                title = r.get('title', 'Sin título')
+                content = r.get('content', '')
+                
+                block = (
+                    f"<b>Fuente:</b> <a href='{url}' target='_blank' style='color: #4facfe;'>{url}</a><br>"
+                    f"<b>Título:</b> {title}<br>"
+                    f"<p>{content}</p>"
+                )
+                formatted_results.append(block)
+
+            return "".join(formatted_results)
 
         except Exception:
             return "ERROR"

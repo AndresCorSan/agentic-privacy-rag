@@ -165,6 +165,8 @@ def render_chat_interface():
         st.rerun()
 
 
+import html
+
 def _render_agent_steps(steps: list):
     """Render colapsable con las trazas del agente."""
     if not steps:
@@ -199,13 +201,24 @@ def _render_agent_steps(steps: list):
                          "get_current_date": "🗓️", "calculator": "🧮"}.get(name, "📥")
                 st.markdown(f"**{emoji} Resultado de `{name}`**")
                 if content:
+                    # Determinamos si escapamos el contenido o permitimos HTML puro
+                    if name == "search_documents":
+                        display_content = html.escape(content).replace("\n", "<br>")
+                    else:
+                        # Para web_search y otros, permitimos Markdown (negritas, enlaces)
+                        # Reemplazamos saltos de línea por <br> manuales para asegurar consistencia dentro del div
+                        display_content = content
+
                     st.markdown(
-                        f'<div style="font-size:0.82rem;color:#b4b4b4;background:#1a1a1a;'
-                        f'border-radius:6px;padding:10px 14px;margin:4px 0;border:1px solid #333;'
-                        f'max-height:250px;overflow-y:auto;">{content}</div>',
+                        f'''
+                        <div style="font-size:0.82rem;color:#d1d1d1;background:#16181e;
+                        border-radius:6px;padding:12px;margin:8px 0;border:1px solid #3a3a3a;
+                        max-height:350px;overflow-y:auto;white-space: normal; line-height: 1.5;">
+                            {display_content}
+                        </div>
+                        ''',
                         unsafe_allow_html=True
                     )
-
 
 def _stream_agent_response(question: str, prior_messages: list):
     """Llama al agente y hace streaming chunked de la respuesta."""

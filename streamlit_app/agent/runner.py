@@ -133,12 +133,42 @@ def run_agent(
     Returns:
         (answer: str, sources: list[str], steps: list[dict])
     """
-    from pydantic_ai.messages import ToolCallPart, ToolReturnPart, TextPart, ThinkingPart
+    from pydantic_ai.messages import (
+        ModelMessage, 
+        ModelRequest, 
+        ModelResponse, 
+        UserPromptPart, 
+        TextPart,
+        ToolCallPart, 
+        ToolReturnPart, 
+        ThinkingPart
+    )
 
     agent = agent_bundle["agent"]
 
-    # Ejecutar con los ajustes dinámicos (sin inyectar el historial manualmente en la query)
-    result = agent.run_sync(question, model_settings=model_settings)
+    # ── Gestión de Memoria (Protección de Tokens 6K TPM) ────────────────────
+    # Limitamos a los últimos 6 mensajes para ahorrar tokens
+    MAX_HISTORY_MESSAGES = 6
+    history_window = history[-MAX_HISTORY_MESSAGES:] if history else []
+
+    message_history: list[ModelMessage] = []
+    for m in history_window:
+        content = m["content"]
+        # Seguridad: si un mensaje histórico es muy largo, lo recortamos
+        if len(content) > 1500:
+            content = content[:1500] + "... [recortado]"
+
+        if m["role"] == "user":
+            message_history.append(ModelRequest(parts=[UserPromptPart(content=content)]))
+        elif m["role"] == "assistant":
+            message_history.append(ModelResponse(parts=[TextPart(content=content)]))
+
+    # Ejecutar con el historial optimizado para no superar TPM
+    result = agent.run_sync(
+        question, 
+        message_history=message_history, 
+        model_settings=model_settings
+    )
 
     steps: list[dict] = []
     sources: list[str] = []
