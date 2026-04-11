@@ -115,9 +115,10 @@ def render_chat_interface():
     if not messages:
         st.markdown("## 👋 ¿En qué puedo ayudarte hoy?")
         st.write(
-            "Soy tu asistente experto en **privacidad y protección de datos**, "
-            "potenciado por un sistema RAG con búsqueda híbrida en documentos oficiales "
-            "de Google, Spotify y guías sobre el GDPR."
+            "Soy tu asistente experto en **políticas de privacidad, términos de "
+            "servicio y protección de datos**, potenciado por un sistema RAG con "
+            "búsqueda híbrida en documentos oficiales de Google, Spotify y guías "
+            "sobre el GDPR."
         )
 
         st.write("")
