@@ -4,7 +4,7 @@ from streamlit_app.utils.session import initialize_session
 
 # ── Page configuration ────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="RAG Privacy Expert",
+    page_title="Agentic Privacy RAG",
     page_icon="🔒",
     layout="wide",
     initial_sidebar_state="expanded",

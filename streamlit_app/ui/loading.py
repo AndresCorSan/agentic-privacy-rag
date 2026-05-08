@@ -20,8 +20,8 @@ def render_loading_screen() -> None:
     _, col, _ = st.columns([1, 2, 1])
 
     with col:
-        st.markdown("## 🔒 RAG Privacy Expert")
-        st.caption("Inicializando los modelos de IA… por favor espere.")
+        st.markdown("## 🔒 Agentic Privacy RAG")
+        st.caption("Inicializando los componentes necesarios para el Agente RAG… por favor espere.")
         st.write("")
 
         # Barra de progreso con texto de estado integrado

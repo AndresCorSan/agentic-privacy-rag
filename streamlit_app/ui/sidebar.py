@@ -18,7 +18,7 @@ def render_sidebar():
             </style>
         """, unsafe_allow_html=True)
 
-        st.title("📑 RAG Privacy Expert")
+        st.title("📑 Agentic Privacy RAG")
 
         # ── New conversation ───────────────────────────────────────────
         if st.button("✏️ Nueva conversación", use_container_width=True):

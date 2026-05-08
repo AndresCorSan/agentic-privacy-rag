@@ -6,28 +6,28 @@ from streamlit_app.utils.session import get_current_messages, add_message
 # ── Suggestion prompts ────────────────────────────────────────────────────────
 SUGGESTIONS = [
     {
-        "icon": "🔒",
-        "title": "Política de privacidad de Spotify",
-        "subtitle": "¿Qué datos recopila Spotify sobre ti?",
-        "prompt": "¿Qué datos personales recopila Spotify y cómo los utiliza?",
-    },
-    {
-        "icon": "📋",
-        "title": "Términos de servicio de Google",
-        "subtitle": "¿Puede Google bloquear tu cuenta?",
-        "prompt": "¿Puede Google bloquear o suspender una cuenta de usuario? ¿En qué casos?",
-    },
-    {
-        "icon": "🇪🇺",
-        "title": "Derechos GDPR",
-        "subtitle": "Conoce tus derechos sobre tus datos",
-        "prompt": "¿Qué derechos tienen los usuarios sobre sus datos personales según el GDPR?",
+        "icon": "👤",
+        "title": "Derechos de los usuarios según el GDPR en Spotify",
+        "subtitle": "Para responder, el agente debe buscar en diferentes documentos del corpus",
+        "prompt": "¿Qué derechos tienen los usuarios sobre sus datos según el GDPR y cómo pueden ejercerlos en Spotify?",
     },
     {
         "icon": "🍪",
-        "title": "Qué son las cookies",
-        "subtitle": "Para qué se utilizan realmente",
-        "prompt": "¿Qué son las cookies y para qué se utilizan en los sitios web?",
+        "title": "Funcionamiento y tipos de cookies",
+        "subtitle": "El agente devuelve imágenes en su respuesta",
+        "prompt": "How do cookies work? What types are there?",
+    },
+    {
+        "icon": "🌐",
+        "title": "Datos recopilados por Netflix al usar sus servicios",
+        "subtitle": "Ejemplo de uso de la tool web_search",
+        "prompt": "¿Qué datos recopila Netflix cuando usamos sus servicios?",
+    },
+    {
+        "icon": "🔢",
+        "title": "Calcular multa por incumplimiento del GDPR",
+        "subtitle": "Requiere búsqueda en documentos y uso de la tool calculator",
+        "prompt": "Teniendo en cuenta que una empresa factura 2 millones de euros anuales, ¿cuánto tendría que pagar de multa si incumple el GDPR?",
     },
 ]
 
@@ -152,7 +152,7 @@ def render_chat_interface():
                     _render_agent_steps(msg["steps"])
 
     # ── Chat input ─────────────────────────────────────────────────────
-    user_input = st.chat_input("Escribe tu pregunta sobre privacidad…")
+    user_input = st.chat_input("Pregunta lo que quieras...")
     final_input = triggered_prompt or user_input
 
     if final_input:
