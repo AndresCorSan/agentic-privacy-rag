@@ -6,6 +6,7 @@ Cada tool encapsula una capacidad concreta: búsqueda en corpus, web, fecha y ca
 from pydantic import BaseModel, Field
 from pydantic_ai import RunContext
 from datetime import datetime
+from typing import Literal, List, Optional
 
 
 # ── Input/Output schemas ───────────────────────────────────────────────────────
@@ -20,14 +21,14 @@ class SearchDocumentsInput(BaseModel):
         )
     )
 
-    categoria: list[str] | None = Field(
+    categoria: Optional[List[Literal['guides', 'privacy_policies', 'terms']]] = Field(
         default=None,
-        description="Filtros de categoria de documento: ['guides', 'privacy_policies', 'terms']"
+        description="Filtros de categoría de documento. Solo selecciona de la lista permitida."
     )
 
-    empresa: list[str] | None = Field(
+    empresa: Optional[List[Literal['Google', 'Spotify']]] = Field(
         default=None,
-        description="Filtros de empresas relevantes (ej: ['Google', 'Spotify'])"
+        description="Filtros de empresas. El corpus SOLO contiene información de Google y Spotify. No uses otros nombres aquí."
     )
 
 
