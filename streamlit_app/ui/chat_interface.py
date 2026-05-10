@@ -6,10 +6,10 @@ from streamlit_app.utils.session import get_current_messages, add_message
 # ── Suggestion prompts ────────────────────────────────────────────────────────
 SUGGESTIONS = [
     {
-        "icon": "👤",
-        "title": "Derechos de los usuarios según el GDPR en Spotify",
+        "icon": "🔍",
+        "title": "Comparativa de políticas de privacidad: Google vs. Spotify",
         "subtitle": "Para responder, el agente debe buscar en diferentes documentos del corpus",
-        "prompt": "¿Qué derechos tienen los usuarios sobre sus datos según el GDPR y cómo pueden ejercerlos en Spotify?",
+        "prompt": "¿Qué empresa es más privacy-friendly: Google o Spotify? Responde en formato tabla.",
     },
     {
         "icon": "🍪",
