@@ -1,5 +1,12 @@
 .venv
 .vscode
-__pycache__
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
 .env
+.streamlit/secrets.toml
 qdrant_storage
+chat_history.db
+PL_LLMs.pdf
+AGENTS.md
+PLAN_PORTFOLIO.md
