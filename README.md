@@ -31,6 +31,8 @@
 
 ## RAG vs Agentic RAG: hallazgos
 
+El proyecto se desarrolló en dos pasos, documentados en `notebooks/`: la [fase 2](notebooks/fase2.ipynb) implementa un pipeline RAG clásico (búsqueda + generación en un solo paso) y la [fase 3](notebooks/fase3.ipynb) lo convierte en un agente que decide cuándo y cómo usar la búsqueda, con herramientas adicionales. La aplicación final usa el agente. Esta tabla resume lo observado al comparar ambos con la misma batería de preguntas:
+
 | Caso | RAG clásico (Fase 2) | Agente (Fase 3) |
 |---|---|---|
 | Preguntas multi-intención | Filtros automáticos rígidos; pierde partes | Divide en búsquedas independientes; responde todo |
@@ -82,7 +84,7 @@ Alternativa sin `uv`, con pip clásico: `python -m venv .venv`, activarlo y `pip
 ```
 app.py                    # Entrada Streamlit
 ingest.py                 # Ingesta del corpus en Qdrant (uso puntual)
-notebooks/                # Desarrollo por fases: embeddings, RAG, agente
+notebooks/                # Desarrollo por fases: fase1 (tokenización y embeddings), fase2 (RAG), fase3 (agente)
 scripts/                  # Scraping del corpus y descripciones VLM (uso puntual)
 streamlit_app/agent/      # Agente, tools y retrieval sobre Qdrant
 streamlit_app/ui/         # Chat, sidebar y pantalla de carga
