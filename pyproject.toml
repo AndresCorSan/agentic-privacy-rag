@@ -1,0 +1,27 @@
+[project]
+name = "pecl-llms"
+version = "0.1.0"
+description = "Asistente experto en privacidad con Agentic RAG"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit>=1.56",
+    "python-dotenv>=1.2.2",
+    "pydantic>=2.12.5",
+    "pydantic-ai>=1.77",
+    "groq>=1.1.2",
+    "tavily-python>=0.7.23",
+    "qdrant-client>=1.17.1",
+    "sentence-transformers>=5.3",
+    "fastembed>=0.8",
+    "numpy>=2.4.4",
+    "openai>=2.30",
+    "requests>=2.33.1",
+    "beautifulsoup4>=4.14.3",
+    "ipykernel>=7.2",
+    "matplotlib>=3.10.8",
+    "scikit-learn>=1.8",
+    "transformers>=5.5",
+    "langchain-text-splitters>=1.1.1",
+    "nest-asyncio>=1.6",
+    "prettytable>=3.17",
+]

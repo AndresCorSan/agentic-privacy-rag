@@ -1,25 +1,31 @@
+# Dependencias directas del proyecto (versiones sincronizadas con uv.lock,
+# que es la fuente de verdad verificada con instalacion desde cero).
+# Las transitivas las resuelve pip solo: no fijarlas evita conflictos
+# entre plataformas (p. ej. pywin32 en Windows) y con futuras versiones.
+# Python recomendado: 3.12+
+
 # --- App Streamlit + agente ---
-streamlit==1.56.0
-python-dotenv==1.2.2
-pydantic==2.12.5
-pydantic-ai==1.77.0
-groq==1.1.2
-tavily-python==0.7.23
-qdrant-client==1.17.1
-sentence-transformers==5.3.0
-fastembed==0.8.0
-numpy==2.4.4
+streamlit==1.66.0
+python-dotenv==1.2.4
+pydantic==2.14.1
+pydantic-ai==2.57.0
+groq==1.7.0
+tavily-python==0.8.5
+qdrant-client==1.19.1
+sentence-transformers==6.1.0
+fastembed==0.9.0
+numpy==2.5.4
 
-# --- Scripts de corpus (extraer_corpus.py, describir_imagen.py) ---
-openai==2.30.0
-requests==2.33.1
-beautifulsoup4==4.14.3
+# --- Scripts de corpus (scripts/extraer_corpus.py, scripts/describir_imagen.py) ---
+openai==3.31.0
+requests==2.34.2
+beautifulsoup4==4.15.0
 
-# --- Notebooks de experimentacion (fase1-3) ---
-ipykernel==7.2.0
-matplotlib==3.10.8
-scikit-learn==1.8.0
-transformers==5.5.0
-langchain-text-splitters==1.1.1
+# --- Notebooks de experimentacion (notebooks/fase1-3) ---
+ipykernel==7.4.0
+matplotlib==3.11.2
+scikit-learn==1.9.1
+transformers==5.20.1
+langchain-text-splitters==1.1.3
 nest-asyncio==1.6.0
-prettytable==3.17.0
+prettytable==3.18.0
