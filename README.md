@@ -26,7 +26,8 @@
 - **Agente con function calling**: decide cuándo buscar en el corpus, reformula queries y aplica filtros por empresa/categoría.
 - **Búsqueda web como respaldo**: si el corpus no contiene la respuesta, el agente recurre a internet (Tavily) y combina ambas fuentes en la respuesta final.
 - **Ingeniería de prompts**: comparativa de system prompts y temperaturas; prompt restrictivo anti-alucinaciones con abstención explícita.
-- **Memoria y trazabilidad**: ventana deslizante conversacional, persistencia de chats en SQLite y vista de razonamiento, llamadas a tools y fuentes.
+- **Memoria conversacional**: ventana deslizante y persistencia de chats en SQLite.
+- **Trazabilidad y observabilidad**: cada respuesta muestra en la UI de Streamlit su razonamiento, las llamadas a herramientas con sus argumentos, los resultados devueltos y los documentos fuente usados.
 - **Soporte multimodal**: descripciones de imágenes generadas con VLM (`Qwen2.5-VL-7B-Instruct`) integradas en el corpus y mostradas en el chat.
 
 ## RAG vs Agentic RAG: hallazgos
@@ -56,8 +57,8 @@ Prerrequisitos: Python 3.12+, [Docker Desktop](https://www.docker.com/products/d
 
 ```bash
 # 1. Clonar y entrar en el proyecto
-git clone https://github.com/AndresCorSan/PECL_LLMs.git
-cd PECL_LLMs
+git clone https://github.com/AndresCorSan/agentic-privacy-rag.git
+cd agentic-privacy-rag
 
 # 2. Configurar claves
 copy .env.example .env   # y rellenar los 3 valores (en Linux/Mac: cp)

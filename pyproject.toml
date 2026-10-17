@@ -1,5 +1,5 @@
 [project]
-name = "pecl-llms"
+name = "agentic-privacy-rag"
 version = "0.1.0"
 description = "Asistente experto en privacidad con Agentic RAG"
 requires-python = ">=3.12"
