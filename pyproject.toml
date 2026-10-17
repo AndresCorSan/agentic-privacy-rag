@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Asistente experto en privacidad con Agentic RAG"
 requires-python = ">=3.12"
 dependencies = [
-    "streamlit>=1.56",
+    "streamlit>=1.66",
     "python-dotenv>=1.2.2",
     "pydantic>=2.12.5",
     "pydantic-ai>=1.77",

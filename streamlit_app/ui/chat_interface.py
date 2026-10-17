@@ -127,7 +127,7 @@ def render_chat_interface():
             col = col1 if i % 2 == 0 else col2
             with col:
                 label = f"{s['icon']} **{s['title']}**\n\n_{s['subtitle']}_"
-                if st.button(label, key=f"sug_{i}", use_container_width=True):
+                if st.button(label, key=f"sug_{i}", use_container_width=True, wrap=True):
                     triggered_prompt = s["prompt"]
 
     else:

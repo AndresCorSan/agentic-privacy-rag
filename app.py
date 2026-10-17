@@ -1,6 +1,13 @@
+import logging
 import streamlit as st
 from streamlit_app.ui.sidebar import render_sidebar
 from streamlit_app.utils.session import initialize_session
+
+# ── Silence Streamlit file-watcher noise ──────────────────────────────────────
+# El watcher inspecciona los módulos cargados y al tocar transformers.models.*
+# dispara imports perezosos de visión (yolos, zoedepth) que requieren torchvision,
+# paquete que no usamos (solo modelos de texto). Son warnings inofensivos.
+logging.getLogger("streamlit.watcher.local_sources_watcher").setLevel(logging.ERROR)
 
 # ── Page configuration ────────────────────────────────────────────────────────
 st.set_page_config(
