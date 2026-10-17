@@ -8,7 +8,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-chat-FF4B4B)
 ![PydanticAI](https://img.shields.io/badge/PydanticAI-agent-E92063)
 ![Qdrant](https://img.shields.io/badge/Qdrant-hybrid_search-DC244C)
-![Groq](https://img.shields.io/badge/Groq-qwen3_32b-F55036)
+![Groq](https://img.shields.io/badge/Groq-gpt_oss_120b-F55036)
 
 </div>
 

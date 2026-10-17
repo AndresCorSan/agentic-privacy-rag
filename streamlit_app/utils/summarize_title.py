@@ -2,11 +2,11 @@ import os
 from groq import Groq
 
 def generate_chat_title(text: str) -> str:
-    """Genera un título corto y descriptivo para el chat usando Llama 3.1-8B."""
+    """Genera un título corto y descriptivo para el chat usando GPT-OSS 20B."""
     try:
         client = Groq(api_key=os.getenv("GROQ_KEY"))
         completion = client.chat.completions.create(
-            model="llama-3.1-8b-instant",
+            model="openai/gpt-oss-20b",
             messages=[
                 {"role": "system", "content": "Eres un experto en micro-resúmenes. Resume la pregunta del usuario en un título de MÁXIMO 5 palabras. Prohibido usar más de una línea. Prohibido usar saltos de línea. Responde únicamente con el texto del título."},
                 {"role": "user", "content": text}

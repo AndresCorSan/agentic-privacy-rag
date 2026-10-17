@@ -82,9 +82,9 @@ def initialize_agent(on_step=None) -> dict:
     _step("Cargando reranker (bge-reranker-v2-m3)…", 0.72)
     reranker = load_reranker()
 
-    _step("Inicializando LLM Qwen3-32B vía Groq…", 0.85)
+    _step("Inicializando LLM GPT-OSS 120B vía Groq…", 0.85)
     groq_model = GroqModel(
-        "qwen/qwen3-32b",
+        "openai/gpt-oss-120b",
         provider=GroqProvider(api_key=os.getenv("GROQ_KEY")),
         settings={"temperature": 0.2},
     )

@@ -98,7 +98,7 @@ def _run_agent(question: str, history: list) -> tuple:
 def render_chat_interface():
     # ── Header ────────────────────────────────────────────────────────
     conv = st.session_state.conversations[st.session_state.current_conv_id]
-    model_name = "Qwen3-32B · RAG + Qdrant"
+    model_name = "GPT-OSS 120B · RAG + Qdrant"
 
     col_title, col_badge = st.columns([4, 1])
     with col_title:

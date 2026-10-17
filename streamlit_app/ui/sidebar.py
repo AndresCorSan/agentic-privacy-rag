@@ -102,7 +102,7 @@ def render_sidebar():
         
         with st.expander("🛠️ Especificaciones del Agente"):
             st.markdown("""
-- **LLM:** `Qwen3-32B (Groq)`
+- **LLM:** `GPT-OSS 120B (Groq)`
 - **Embeddings:** `E5-Base`
 - **Sparse:** `BM25`
 - **Reranker:** `BGE-v2-M3`
