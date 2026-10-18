@@ -15,7 +15,7 @@ SUGGESTIONS = [
         "icon": "🍪",
         "title": "Funcionamiento y tipos de cookies",
         "subtitle": "El agente devuelve imágenes en su respuesta",
-        "prompt": "How do cookies work? What types are there?",
+        "prompt": "According to the guides in the corpus, how do cookies work? What types are there?",
     },
     {
         "icon": "🌐",
