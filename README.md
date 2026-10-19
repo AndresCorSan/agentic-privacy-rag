@@ -14,7 +14,7 @@
 
 ## Demo
 
-*Vídeo demo próximamente.*
+[![Ver demo del proyecto](docs/demo_agentic-privacy-rag-Cover.png)](https://youtu.be/2knEtpeCmII)
 
 ## Arquitectura
 
