@@ -91,7 +91,7 @@ streamlit_app/agent/      # Agente, tools y retrieval sobre Qdrant
 streamlit_app/ui/         # Chat, sidebar y pantalla de carga
 streamlit_app/utils/      # Sesión, SQLite y títulos automáticos
 corpus/                   # Documentos en Markdown + imágenes
-docs/                     # Diagrama de arquitectura (+ vídeo demo futuro)
+docs/                     # Diagrama de arquitectura y demo
 ```
 
 - `notebooks/` documenta el proceso de desarrollo por fases (experimentación, comparativas y pruebas del RAG y del agente).
